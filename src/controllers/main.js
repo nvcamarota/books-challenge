@@ -68,7 +68,7 @@ const mainController = {
     // Implement delete book
     let bookId = req.params.id;
 
-    db.Booksauthors.destroy({
+    db.BooksAuthors.destroy({
       where: {
         BookId: bookId
       },
